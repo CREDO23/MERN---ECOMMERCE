@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import * as Icon from 'react-bootstrap-icons';
 
 
 function App() {
@@ -6,9 +7,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1 class="text-3xl text-red-700  font-bold ">
-    Hello world!
-  </h1>
+    
+     
     </div>
   )
 }
