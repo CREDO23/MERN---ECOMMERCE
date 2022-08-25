@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import * as Icon from 'react-bootstrap-icons';
+/** @format */
 
+import { useState } from 'react';
+import NavBar from './components/NavBar';
 
 function App() {
-  const [count, setCount] = useState(0)
+	const [count, setCount] = useState(0);
 
-  return (
-    <div className="App">
-    
-     
-    </div>
-  )
+	return <NavBar />;
 }
 
-export default App
+export default App;
